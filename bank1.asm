@@ -166,4 +166,10 @@ dialogStringTable:
 	
 
 disasm_end:
-	.incbin "zelda_base.nes", $4010+(disasm_end-disasm_start), $4000-(disasm_end-disasm_start)
+	.incbin "data/bank1data_0.bin"
+	.incbin "gfx/bank1gfx.bin"
+	.incbin "data/bank1data_1.bin"
+
+
+
+

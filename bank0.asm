@@ -1103,7 +1103,7 @@ sub_9ee6:
 
 ;9F00
 ; Note frequency table
-noteTable:
+noteTable: ;starts at 0x1F10
 	.byte $00,$23	;G7
 	.byte $00,$6A	;C6
 	.byte $03,$27
